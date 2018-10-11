@@ -30,7 +30,7 @@ namespace WebApiCore
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("First expirience using .Net Core!");
+                await context.Response.WriteAsync("Programing with DotNet Core");
             });
         }
     }

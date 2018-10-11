@@ -15,7 +15,7 @@ namespace WebApiCore.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value21" };
         }
 
         // GET api/<controller>/5
